@@ -1,0 +1,57 @@
+.percentage{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.percentage .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.percentage .number h2{
+    color: #777;
+    font-weight: 800;
+    font-size: 3rem;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.percentage .number .title{
+    font-size: 1rem;
+    font-style: normal;
+}
+
+.percentage svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.percentage svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 8;
+    stroke-linecap: square;
+    transform: translate(5px, 5px);
+}
+
+.percentage svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}

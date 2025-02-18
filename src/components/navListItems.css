@@ -1,0 +1,44 @@
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 9000 !important;
+    margin: 0 !important;
+}
+.nav.active{
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9000;
+}
+
+.nav li {
+    position: relative;
+    list-style: none;
+}
+
+.nav li a{
+    color: beige;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.nav li a:hover,
+.nav li a.active{
+    color: var(--third);
+}

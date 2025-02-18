@@ -1,0 +1,119 @@
+.vehicles-details{
+    padding-bottom: 0;
+}
+
+.vehicle-details::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 33.33%;
+    height: 60vh;
+    background: var(--third);
+}
+
+.details-left,
+.details-middle,
+.details-right{
+    position: relative;   
+}
+
+.details-img-left{
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.vehicle-details .price{
+    position: relative;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 800;
+    color: #ffffff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.price span{
+    position: absolute;
+    font-size: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+}
+
+.contact-seller {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.details-box:hover{
+    box-shadow: 1.5px 0 30px rgba(0,0,0,0.2);
+}
+
+.details-box i {
+    display: block;
+    font-size: 36px;
+    color: var(--third);
+    float: left;
+    line-height: 0;
+}
+
+.deatils-box span{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 1.2rem;
+    line-height: 10px;
+    display: block;
+    font-weight: 400;
+    color: #222;
+    margin-left: 50px;
+}
+
+.details-box p{
+    padding: 15px 0 0 0;
+    margin: 0 0 0 50px;
+    font-size: 14px;
+    color: #484848;
+}
+
+.details-img-middle{
+    height: 27.7vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.details-img-right{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.details-description{
+    padding: 50px 20px 20px;
+}
+

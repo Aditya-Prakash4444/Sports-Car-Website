@@ -1,0 +1,76 @@
+header{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    transition: 0.5s;
+    z-index: 10000 !important;
+}
+
+header::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 100%;
+    background: var(--primary);
+    transition: 0.5s;
+}
+
+.logo{
+    font-family: 'Racing Sans One', cursive;
+    font-size: 35px;
+    color: red;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 10000;
+}
+
+header .like{
+    position: absolute;
+    top: 0;
+    right: 130px;
+    width: 130px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--third);
+    color:beige;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 9000;
+}
+
+header .likeNumbers{
+    position: absolute;
+    right: 27%;
+    top: 45%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    background: var(--fourth);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    position: relative;
+    width: 130px;
+    height: 100%;
+    color: yellowgreen;
+    font-size: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 10000;
+}
