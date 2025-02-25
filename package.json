@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "ajv": "^8.17.1",
+    "ajv": "^7.2.4",
     "install": "^0.13.0"
   }
 }
